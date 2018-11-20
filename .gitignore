@@ -39,3 +39,7 @@ testem.log
 Thumbs.db
 RestApi/node_modules
 .vscode
+"RestApi/logs" 
+"src/config" 
+"src/assets.json" 
+"RestApi/config.js" 
