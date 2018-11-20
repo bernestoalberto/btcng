@@ -2,17 +2,26 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { WalletComponent } from './wallet/wallet.component';
+
+import { CoinbaseComponent } from './coinbase/coinbase.component';
+import { NicehashComponent } from './nicehash/nicehash.component';
 import { MarketComponent } from './market/market.component';
+
+import { HttpClientModule } from '@angular/common/http';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    WalletComponent,
+    CoinbaseComponent,
+    NicehashComponent,
     MarketComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
