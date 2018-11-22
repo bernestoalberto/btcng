@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NicehashComponent } from './nicehash.component';
+import { NiceHashComponent } from './nicehash.component';
 
-describe('NicehashComponent', () => {
-  let component: NicehashComponent;
-  let fixture: ComponentFixture<NicehashComponent>;
+describe('NiceHashComponent', () => {
+  let component: NiceHashComponent;
+  let fixture: ComponentFixture<NiceHashComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NicehashComponent ]
+      declarations: [ NiceHashComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NicehashComponent);
+    fixture = TestBed.createComponent(NiceHashComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
